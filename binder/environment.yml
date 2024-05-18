@@ -1,0 +1,12 @@
+name: vpython sandbox
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - numpy==1.26.4
+    - jupyterlab==3.6.6
+    - notebook==6.5.6
+    - vpython==7.6.4
+    - jupyterlab-vpython==3.1.4
